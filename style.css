@@ -1,12 +1,27 @@
 h1
 {
     color: red;
+    padding: 300px;
+    margin: 300px;
 }
 .circle-border 
 {
     width: 320px;
     border: 1px solid yellow;
     border-radius: 15%;
+}
+html
+{
+    margin: 0;
+    padding: 0;
+    scrollbar-width: none;
+}
+body
+{
+  margin: 0;
+  padding: 0;
+  height: 300vh;
+
 }
 body
 {
@@ -16,4 +31,3 @@ body
 {
    background: linear-gradient(gold,#000321);
 }
-
