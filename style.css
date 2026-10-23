@@ -43,3 +43,12 @@ body
     left: 2em;
     position: fixed;
 }
+@keyframes bobbing
+{
+    from { transform: translateY(0); }
+    to   { transform: translateY(-10px); }
+}
+.face-right
+{
+    scale: -1 1;
+}
